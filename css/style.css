@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.pic-card {
+  background-color: white;
+  width: calc(100vw - 40px);
+  max-width: 400px;
+  min-width: 263px;
+  height: calc(133vw - 40px);
+  max-height: 532px;
+  min-height: 350px;
+  margin: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  border-radius: 5px;
+}
+.pic-card__background {
+  background-image: url(../img/05-bem-naming-structure.svg);
+  background-size: contain;
+  width: 100%;
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-grow: 2;
+}
+.pic-card__text {
+  flex-grow: 3;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.pic-card__title {
+  display: flex;
+  padding: 0px 10px 10px 10px;
+}
+.pic-card__info {
+  width: 100%;
+  padding: 10px;
+  text-align: justify;
+}
+.pic-card__buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.pic-card__button {
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.pic-card__button--highlighted {
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.input-card {
+  background-color: white;
+  width: calc(100vw - 40px);
+  max-width: 400px;
+  min-width: 263px;
+  height: calc(133vw - 40px);
+  max-height: 532px;
+  min-height: 350px;
+  margin: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: stretch;
+  border-radius: 5px;
+}
+.input-card__formbox {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  flex-grow: 3;
+  align-items: stretch;
+  padding: 10px;
+}
+.input-card__form {
+  margin: 5px 0px;
+}
+.input-card__input {
+  width: 100%;
+}
+.input-card__buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.input-card__button {
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.input-card__button--highlighted {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}/*# sourceMappingURL=style.css.map */

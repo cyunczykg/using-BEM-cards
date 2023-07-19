@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+}
+
+main {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.pic-card {
+	background-color: white;
+	width: calc(100vw - 40px);
+	max-width: 400px;
+	min-width: 263px;
+	height: calc(133vw - 40px);
+	max-height: 532px;
+	min-height: 350px;
+
+	margin: 20px;
+
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+
+	border-radius: 5px;
+
+	&__background {
+		background-image: url(../img/05-bem-naming-structure.svg);
+		background-size: contain;
+		width: 100%;
+		height: 30%;
+		background-position: center;
+		background-repeat: no-repeat;
+		flex-grow: 2;
+	}
+	&__text {
+		flex-grow: 3;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: flex-start;
+		align-items: stretch;
+	}
+	&__title {
+		display: flex;
+		padding: 0px 10px 10px 10px;
+	}
+	&__info {
+		width: 100%;
+		padding: 10px;
+		text-align: justify;
+	}
+	&__buttons {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+	&__button {
+		border: solid 1px black;
+		border-radius: 5px;
+		padding: 10px;
+		margin: 10px;
+		text-align: center;
+	}
+	&__button--highlighted {
+		color: white;
+		background-color: black;
+		padding: 10px 20px;
+	}
+}
+
+.input-card {
+	background-color: white;
+	width: calc(100vw - 40px);
+	max-width: 400px;
+	min-width: 263px;
+	height: calc(133vw - 40px);
+	max-height: 532px;
+	min-height: 350px;
+
+	margin: 20px;
+
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: stretch;
+
+	border-radius: 5px;
+	&__formbox {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		flex-grow: 3;
+		align-items: stretch;
+		padding: 10px;
+	}
+	&__form {
+		margin: 5px 0px;
+		
+	}
+	&__input {
+		width: 100%;
+	}
+
+	&__buttons {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+	&__button {
+		border: solid 1px black;
+		border-radius: 5px;
+		padding: 10px;
+		margin: 10px;
+		text-align: center;
+	}
+	&__button--highlighted {
+		background-color: black;
+		color: white;
+		padding: 10px 20px;
+	}
+}

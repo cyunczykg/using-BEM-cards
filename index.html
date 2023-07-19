@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM class notation cards</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="pic-card">
+            <div class="pic-card__background"></div>
+            <div class="pic-card__text">
+                <div class="pic-card__title">
+                    <h2>Pic-card__title</h2>
+                </div>
+                <div class="pic-card__info">
+                    <p>Pic-card__info Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, iste libero
+                        possimus sint dolores repudiandae veniam modi fuga similique quasi maiores dicta magnam
+                        provident. Nobis illo dolor dolorem est molestiae!</p>
+                </div>
+            </div>
+            <div class="pic-card__buttons">
+                <div class="pic-card__button">Basic button</div>
+                <div class="pic-card__button" class="pic-card__button--highlighted">Modified</div>
+            </div>
+        </section>
+        <section class="input-card">
+            <div class="input-card__formbox">
+                <form class="input-card__form">
+                    <label for="fname">First name:</label><br>
+                    <input class="input-card__input" type="text" id="fname" name="fname">
+                </form>
+                <form class="input-card__form">
+                    <label for="lname">Last name:</label><br>
+                    <input class="input-card__input" type="text" id="lname" name="lname"><br>
+                </form>
+                <form class="input-card__form">
+                    <label class="class="input-card__input for="username">Username:</label><br>
+                    <input class="input-card__input" type="text" id="username" name="username"><br>
+                </form>
+                <form class="input-card__form">
+                    <label for="pwd">Password:</label><br>
+                    <input class="input-card__input" type="password" id="pwd" name="pwd">
+                </form>
+            </div>
+            <div class="input-card__buttons">
+                <div class="input-card__button">Clear</div>
+                <div class="input-card__button" class="input-card__button--highlighted">Submit</div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
