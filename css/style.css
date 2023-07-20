@@ -74,8 +74,9 @@ main {
   border-radius: 5px;
   color: white;
   background-color: black;
-  padding: 10px 20px;
+  padding: 10px;
   margin: 10px;
+  text-align: center;
 }
 
 .input-card {
@@ -125,6 +126,7 @@ main {
   border-radius: 5px;
   background-color: black;
   color: white;
-  padding: 10px 20px;
+  padding: 10px;
   margin: 10px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
