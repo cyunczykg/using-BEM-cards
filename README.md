@@ -16,4 +16,4 @@ Project is created with:
 	
 ## Setup
 To run this project go to github page:
-https://github.com/cyunczykg/using-BEM-cards/deployments/github-pages
+https://cyunczykg.github.io/using-BEM-cards/
